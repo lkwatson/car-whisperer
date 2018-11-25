@@ -1,0 +1,8 @@
+prefix=/home/odroid/car-whisper/install
+
+Name: ohm_bob_laser_filter
+Description: Description of ohm_bob_laser_filter
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/odroid/car-whisper/install/lib 
+Requires: roscpp sensor_msgs ohm_navigation

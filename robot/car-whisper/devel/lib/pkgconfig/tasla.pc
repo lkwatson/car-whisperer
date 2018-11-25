@@ -1,0 +1,8 @@
+prefix=/home/odroid/car-whisper/devel
+
+Name: tasla
+Description: Description of tasla
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/odroid/car-whisper/devel/lib 
+Requires: 

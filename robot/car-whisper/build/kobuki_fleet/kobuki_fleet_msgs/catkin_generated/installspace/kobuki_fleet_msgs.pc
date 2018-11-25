@@ -1,0 +1,8 @@
+prefix=/home/odroid/car-whisper/install
+
+Name: kobuki_fleet_msgs
+Description: Description of kobuki_fleet_msgs
+Version: 0.0.0
+Cflags: -I/home/odroid/car-whisper/install/include
+Libs: -L/home/odroid/car-whisper/install/lib 
+Requires: actionlib_msgs

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/odroid/car-whisper/src/kobuki_fleet/neocortec/include/neocortec/NcApi.h
+stdint.h
+-
+
+/home/odroid/car-whisper/src/kobuki_fleet/neocortec/include/neocortec/NeoParser.h
+stdint.h
+-
+NcApi.h
+/home/odroid/car-whisper/src/kobuki_fleet/neocortec/include/neocortec/NcApi.h
+
+/home/odroid/car-whisper/src/kobuki_fleet/neocortec/src/NcApi.c
+string.h
+-
+NcApi.h
+/home/odroid/car-whisper/src/kobuki_fleet/neocortec/src/NcApi.h
+NeoParser.h
+/home/odroid/car-whisper/src/kobuki_fleet/neocortec/src/NeoParser.h
+
+/home/odroid/car-whisper/src/kobuki_fleet/neocortec/src/NeoParser.c
+NeoParser.h
+/home/odroid/car-whisper/src/kobuki_fleet/neocortec/src/NeoParser.h
+

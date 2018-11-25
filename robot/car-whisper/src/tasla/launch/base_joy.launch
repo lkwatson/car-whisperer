@@ -1,0 +1,13 @@
+<launch>
+  <include file="$(find turtlebot_bringup)/launch/minimal.launch"/>
+  <include file="$(find turtlebot_teleop)/launch/ps3_teleop.launch"/>
+  <include file="$(find rplidar_ros)/launch/rplidar.launch"/>
+
+  <node pkg="laser_filters" type="scan_to_scan_filter_chain"
+        name="laser_filter">
+    <rosparam command="load" file="$(find tasla)/config/laser_filt.yaml" />
+    <remap from="scan" to="base_scan" />
+  </node>
+
+  <node pkg="tf" type="static_transform_publisher" name="base_to_laser_broadcaster" args="0 0 0 0 0 0 base_link laser 100" />
+</launch>

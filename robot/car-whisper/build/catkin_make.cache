@@ -1,0 +1,2 @@
+kobuki_fleet/kobuki_fleet:kobuki_fleet/kobuki_fleet_controlpanel:kobuki_fleet/kobuki_fleet_inventory:kobuki_fleet/kobuki_fleet_joy:kobuki_fleet/kobuki_fleet_launch:kobuki_fleet/kobuki_fleet_machine:kobuki_fleet/kobuki_fleet_msgs:kobuki_fleet/kobuki_fleet_neocortec:kobuki_fleet/kobuki_fleet_snapshot:kobuki_fleet/kobuki_fleet_state_machine:kobuki_fleet/kobuki_fleet_twist_mux:kobuki_fleet/neocortec:kobuki_fleet/ohm_bob_laser_filter:rplidar_ros:tasla
+-DCATKIN_DEVEL_PREFIX=/home/odroid/car-whisper/devel -DCMAKE_INSTALL_PREFIX=/home/odroid/car-whisper/install -G Unix Makefiles

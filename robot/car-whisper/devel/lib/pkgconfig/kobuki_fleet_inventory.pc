@@ -1,0 +1,8 @@
+prefix=/home/odroid/car-whisper/devel
+
+Name: kobuki_fleet_inventory
+Description: Description of kobuki_fleet_inventory
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/odroid/car-whisper/devel/lib 
+Requires: roscpp

@@ -1,0 +1,8 @@
+prefix=/home/odroid/car-whisper/install
+
+Name: kobuki_fleet_twist_mux
+Description: Description of kobuki_fleet_twist_mux
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/odroid/car-whisper/install/lib 
+Requires: 

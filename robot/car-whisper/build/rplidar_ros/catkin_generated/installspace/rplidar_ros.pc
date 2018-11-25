@@ -1,0 +1,8 @@
+prefix=/home/odroid/car-whisper/install
+
+Name: rplidar_ros
+Description: Description of rplidar_ros
+Version: 1.0.1
+Cflags: 
+Libs: -L/home/odroid/car-whisper/install/lib 
+Requires: 
